@@ -13,3 +13,8 @@
 
 # To check docker container status
 `docker ps`
+
+# Debug in docker
+## Start container first: `docker exec -it mongodb bash`
+## Then use mongo shell: `mongo mongodb://localhost:27017 -u rootuser -p rootpass` (27017 is the port inside container)
+
